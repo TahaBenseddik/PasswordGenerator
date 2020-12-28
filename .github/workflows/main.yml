@@ -28,6 +28,9 @@ jobs:
       - name: Publish PowerShell Module
         uses: pcgeek86/publish-powershell-module-action@v19
         with:
-          modulePath: 'PasswordGenerator'
-          NuGetApiKey: ${{ secrets.PS_GALLERY_KEY }}
+          modulePath: 'PasswordGenerator/'
+          NuGetApiKey: ${{ secrets.PS_GALLERY_KEY }} 
 
+      - name: Display the path
+        run: echo $PATH
+        shell: bash
