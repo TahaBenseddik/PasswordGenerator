@@ -30,7 +30,7 @@ CompanyName = 'Unknown'
 Copyright = '(c) tbens. All rights reserved.'
 
 # Description of the functionality provided by this module
-# Description = 'Generate password of which that output can be converted to a secure string'
+Description = 'Generate password of which the output can be converted to a secure string'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -69,7 +69,7 @@ Copyright = '(c) tbens. All rights reserved.'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = @(Get-RandomPassword)
+FunctionsToExport = '*'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
