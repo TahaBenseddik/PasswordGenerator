@@ -12,13 +12,13 @@
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '0.0.1'
+ModuleVersion = '0.0.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
 
 # ID used to uniquely identify this module
-GUID = '728c0606-2d5b-411f-9bd8-6f9f03657145'
+GUID = '728c1606-2d5b-401f-9bd8-6f9f03697145'
 
 # Author of this module
 Author = 'Taha Benseddik'
